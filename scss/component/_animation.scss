@@ -1,0 +1,54 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes ripple {
+    0% {
+        width: 86.09px;
+        height: 86.09px;
+        opacity: 1;
+    }
+    100% {
+        width: 109.04px;
+        height: 109.04px;
+        opacity: 0;
+    }
+}
+@keyframes ripple-1 {
+    0% {
+        width: 86.09px;
+        height: 86.09px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 132px;
+        height: 132px;
+        opacity: 0;
+    }
+}
+.fade-item {
+    transform: translateY(100px);
+    @include hidden;
+    @include transition3;
+}
+@keyframes rollInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%) rotate(120deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+.rollInRight {
+    animation-name: rollInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}

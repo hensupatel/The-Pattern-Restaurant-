@@ -1,0 +1,1678 @@
+@media (min-width: 1913px) {
+    .s-special-food {
+        .s-left {
+            width: 33.3333%;
+            img {
+                width: 100%;
+            }
+        }
+        .s-right {
+            width: 66.6666%;
+            .content {
+                padding: 0px;
+                justify-content: center;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 1293px) {
+    .wg-welcome {
+        right: 0px !important;
+    }
+}
+@media (min-width: 1292px) and (max-width: 1911px) {
+    .wg-welcome {
+        right: -14px !important;
+    }
+}
+@media (max-width: 1911px) {
+    .slide-home-1 {
+        .content {
+            padding-top: 150px !important;
+        }
+    }
+    .header-inner {
+        padding: 0px 0px;
+    }
+}
+@media (max-width: 1800px) {
+    .s-testimonial {
+        &.style-2 {
+            .wg-testimonial {
+                padding: 132px 25px 130px 97px;
+            }
+        }
+        &.page-index {
+            .pagination-testimonial {
+                bottom: 50px !important;
+            }
+        }
+    }
+    .s-our-blog {
+        &.page-index {
+            .navigation-s-our-blog {
+                &.btn-pre {
+                    top: 58%;
+                    left: 5%;
+                }
+                &.btn-next {
+                    top: 58%;
+                    right: 5%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1700px) {
+    .s-offer-food-2 {
+        .wg-food-offer {
+            &:hover {
+                .content {
+                    padding: 20px 15px 0px;
+                }
+            }
+        }
+    }
+    .s-meet-the-chef {
+        .image {
+            img {
+                max-height: unset;
+            }
+        }
+    }
+    .slide-home-2 {
+        .content-wrap {
+            padding-left: 15px;
+            padding-top: 300px !important;
+        }
+    }
+    .s-team,
+    .s-enjoy {
+        br {
+            display: none;
+        }
+        .content {
+            &.left {
+                padding-left: 80px;
+            }
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .s-testimonial {
+        &.style-2 {
+            .wg-testimonial {
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+    .s-welcome-balisico {
+        .main-section {
+            justify-content: center;
+            .box-infor {
+                br {
+                    display: block;
+                }
+                &.type-right {
+                    width: 100%;
+                    max-width: 410px;
+                }
+            }
+            .content-inner {
+                padding: 0px 30px;
+            }
+        }
+    }
+    .s-special-food {
+        .s-right {
+            .content {
+                padding: 30px 15px !important;
+                justify-content: center;
+                br {
+                }
+            }
+        }
+    }
+    .s-our-story {
+        .section-wrap {
+            .content-section {
+                padding: 50px 70px 30px 71px;
+            }
+        }
+    }
+    .slide-home-1 {
+        .btn-view {
+            margin-bottom: 80px !important;
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .s-find-us {
+        &.page-book-a-table {
+            .content-right {
+                padding: 30px;
+            }
+            .image {
+                display: none;
+            }
+        }
+    }
+    .s-meet-page-about-us {
+        .image {
+            .img-item-1 {
+                display: none;
+            }
+        }
+        .content-section {
+            padding-top: 115px;
+        }
+    }
+    .s-meet-the-chef {
+        .content-section {
+            padding: 100px 75px;
+        }
+    }
+    .s-special-food {
+        flex-wrap: wrap;
+        .s-left {
+            width: 100%;
+            img {
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+            }
+        }
+        .s-right {
+            width: 100%;
+            .image {
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .s-recommend {
+        .img-item {
+            &.img-item-1 {
+                max-width: 250px;
+            }
+            &.img-item-2 {
+                max-width: 250px;
+            }
+        }
+    }
+    .s-our-story {
+        .section-wrap {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .video-wrap {
+                max-height: 500px;
+                max-width: unset;
+                img {
+                    object-position: center;
+                }
+            }
+            .content-section {
+                width: 57%;
+                padding: 60px 30px 60px 0px;
+            }
+            .box-infor {
+                margin-top: 60px;
+            }
+        }
+    }
+    .slide-home-2 {
+        .content-wrap {
+            padding-top: 230px !important;
+            padding-left: 15px;
+        }
+    }
+    .navigation-s-our-blog {
+        display: none !important;
+    }
+    .s-testimonial {
+        &.page-index {
+            .wg-testimonial {
+                padding: 75px 50px 75px 75px;
+                .icon-item {
+                    margin-bottom: 20px;
+                }
+                .title {
+                    margin-bottom: 20px;
+                }
+                .text {
+                    margin-bottom: 25px;
+                }
+            }
+            .swiper-pagination {
+                bottom: 50px;
+                left: 75px;
+            }
+        }
+    }
+    .s-private {
+        .private-content {
+            .content-section {
+                padding: 15px;
+                margin-bottom: 0px;
+                max-width: unset;
+                width: 50%;
+            }
+            .image {
+                padding: 0px;
+                img {
+                    height: 600px;
+                    object-fit: cover;
+                }
+                .wg-counter {
+                    left: 0px;
+                    width: max-content;
+                    .number-counter {
+                        white-space: nowrap;
+                        padding: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .s-box-why {
+        .box-why-content {
+            .image {
+                padding-right: 0px;
+            }
+        }
+    }
+    .s-book {
+        .img-item {
+            max-width: 300px;
+            width: 100%;
+            height: auto !important;
+            object-fit: cover;
+            &.img-item-1 {
+                top: 20% !important;
+            }
+            &.img-item-2 {
+                top: 20% !important;
+            }
+        }
+    }
+    .wg-testimonial {
+        &.style-2 {
+            padding-left: 0px !important;
+        }
+    }
+    .slide-home-1 {
+        .content {
+            padding-top: 75px !important;
+        }
+    }
+
+    .header-inner {
+        .main-nav {
+            .nav-list {
+                gap: 20px;
+            }
+        }
+        .header-left {
+            padding-right: 25px;
+            .tf-btn {
+                padding: 0px 20px !important;
+                height: 40px;
+                line-height: 43px;
+            }
+        }
+        .header-right {
+            padding-left: 25px;
+            .icon-item-right {
+                .header-search {
+                    margin-right: 15px;
+                }
+                .wg-bag {
+                    margin-right: 30px !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .s-testimonial {
+        &.page-index {
+            .pagination-testimonial {
+                bottom: 20px !important;
+            }
+        }
+    }
+    .s-private-page-about-us {
+        .content-section {
+            padding-top: 50px;
+        }
+    }
+    .s-welcome-balisico {
+        .main-section {
+            justify-content: center;
+            .box-infor {
+                &.type-right {
+                }
+            }
+            .content-inner {
+                padding: 0px 30px;
+            }
+        }
+    }
+    .s-book {
+        &.page-home-2 {
+            .heading-section {
+                padding-top: 60px;
+            }
+        }
+    }
+    .s-offer-food-2 {
+        .wg-food-offer {
+            &:hover {
+                .content {
+                    .name {
+                        margin-bottom: 0px;
+                    }
+                    .text {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .s-recommend {
+        br {
+            display: block;
+        }
+    }
+    .tf-topbar {
+        .header-topbar {
+            padding: 15px 0px !important;
+
+            br {
+                display: block;
+            }
+        }
+    }
+    .header {
+        &.header-fixed-2 {
+            .mobile-nav-wrap {
+                .inner-mobile-nav {
+                    top: 0;
+                    height: 100%;
+                }
+                .image-item {
+                    // left: 280px;
+                    bottom: 0px;
+                }
+            }
+        }
+    }
+    .header-style-2 {
+        .header-inner {
+            padding-top: 15px !important;
+        }
+        .inner-mobile-nav {
+            top: 80px !important;
+        }
+    }
+    .slide-home-2 {
+        .content-wrap {
+            padding-top: 200px !important;
+            padding-left: 15px;
+            .sub-title {
+                line-height: 20px;
+            }
+            .title {
+                font-size: 45px;
+                line-height: 50px;
+                width: 70%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .s-testimonial {
+        &.page-index {
+            .slider-testimonial {
+                .wg-testimonial {
+                    padding: 40px;
+                    > * {
+                        margin-bottom: 10px !important;
+                    }
+                }
+                .swiper-pagination {
+                    left: 30px;
+                    bottom: 20px;
+                }
+            }
+        }
+    }
+    .s-box-why {
+        .box-why-content {
+            .content-section {
+                padding: 30px 15px 15px 75px;
+            }
+            .image {
+                .content-left {
+                    bottom: -113px;
+                    right: -37px;
+                    padding: 40px;
+                    max-width: 390px;
+                }
+            }
+        }
+    }
+    .s-about {
+        .image {
+            max-width: unset;
+            .img-item-2 {
+                display: none;
+            }
+        }
+    }
+    .animal-link-menu {
+        .list {
+            gap: 50px;
+        }
+    }
+    .s-team,
+    .s-enjoy {
+        .content {
+            padding: 60px !important;
+        }
+    }
+    br {
+        display: none;
+    }
+    .slide-home-1 {
+        .content {
+            .title {
+                width: 70% !important;
+                font-size: 40px;
+                margin-bottom: 20px !important;
+                line-height: 45px;
+            }
+        }
+        .btn-view {
+            margin-bottom: 40px !important;
+        }
+        .bot {
+            gap: 30px !important;
+            > * {
+                width: 33.333%;
+            }
+        }
+    }
+    .header-inner {
+        .header-right {
+            justify-content: flex-end;
+        }
+        .header-left {
+            padding-right: 10px;
+        }
+        .header-right {
+            padding-left: 10px;
+            .icon-item-right {
+                .wg-bag {
+                    margin-right: 10px !important;
+                }
+            }
+        }
+    }
+    .main-nav {
+        display: none !important;
+    }
+    .sidebar-welcome {
+        display: none;
+    }
+    .mobile-button {
+        display: block !important;
+    }
+}
+@media (max-width: 991px) {
+    .wg-location {
+        .box-map {
+            .map {
+                height: 60vh;
+            }
+        }
+    }
+    .tf-mouse {
+        display: none;
+    }
+    #footer-main {
+        .img-item {
+            &.item-1 {
+                top: -32px;
+                max-width: 200px;
+            }
+            &.item-2 {
+                max-width: 200px;
+            }
+        }
+    }
+    .s-counter {
+        padding: 30px 0px;
+    }
+    .s-private-page-about-us {
+        padding: 30px 0px;
+        .content-section {
+            padding-top: 0px;
+            padding-bottom: 60px;
+            .tf-accordion {
+                margin-bottom: 20px;
+            }
+        }
+        .image {
+            margin-left: 0px;
+            img {
+                max-height: 500px;
+            }
+        }
+    }
+    .s-meet-page-about-us {
+        padding: 60px 0px;
+        .image {
+            margin: 0px;
+            width: 100%;
+            max-width: unset;
+            .img-item-2 {
+                right: 0px;
+                height: 500px;
+            }
+        }
+        .content-section {
+            padding-top: 60px;
+        }
+    }
+    .s-welcome-balisico {
+        padding-bottom: 30px;
+        .main-section {
+            flex-wrap: wrap;
+            .box-infor {
+                margin-bottom: 70px;
+                margin-left: 0px !important;
+                padding: 66px 15px 67px;
+                &.type-right {
+                }
+            }
+            .content-inner {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .s-find-us {
+        &.page-home-2 {
+            .map {
+                max-width: unset;
+                width: 100%;
+            }
+            br {
+                display: block;
+            }
+        }
+    }
+    .s-offer-food-2 {
+        .wg-food-offer {
+            .content {
+                height: 70px;
+                left: 30px;
+                right: 30px;
+                .name {
+                    bottom: 28px;
+                    font-size: 25px;
+                }
+                .icon {
+                    margin-top: -5px;
+                    margin-bottom: -15px;
+                }
+            }
+            &:hover {
+                .content {
+                    .name {
+                        bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .s-meet-the-chef {
+        flex-wrap: wrap;
+        .image {
+            width: 100%;
+            img {
+                max-height: 500px;
+                object-position: top;
+            }
+        }
+        .content-section {
+            width: 100%;
+            padding: 60px 30px;
+        }
+    }
+    .s-special-food {
+        .s-left {
+            .content {
+                .title {
+                    width: 50%;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+        .s-right {
+            .content {
+                .title {
+                    margin-bottom: 15px;
+                    font-size: 40px;
+                }
+                .text {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+    .s-recommend {
+        .img-item {
+            &.img-item-1 {
+                max-width: 200px;
+            }
+            &.img-item-2 {
+                max-width: 200px;
+            }
+        }
+        .wg-menu {
+            margin-bottom: 30px;
+        }
+    }
+    .s-our-story {
+        .section-wrap {
+            .content-section {
+                width: 100%;
+                padding: 60px 0px 0px 0px;
+            }
+            .box-infor {
+                width: 100%;
+            }
+        }
+    }
+    .tf-topbar {
+        .header-topbar {
+            gap: 20px;
+            flex-direction: column;
+            .topbar-right {
+                .contact-list {
+                    gap: 20px !important;
+                    .item {
+                        gap: 5px !important;
+                        .icon {
+                            flex-shrink: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header {
+        .header-fixed-2 {
+        }
+    }
+    .header {
+        &.header-style-2 {
+            &.t-147 {
+                top: 147px !important;
+            }
+            .header-inner {
+                .header-right {
+                    gap: 25px !important;
+                }
+            }
+            .inner-mobile-nav {
+                top: 0px !important;
+                .wrap {
+                    height: 100%;
+                    padding: 30px 20px !important;
+                }
+                .mobile-nav-close {
+                    right: 14px !important;
+                    top: 13px !important;
+                }
+            }
+            &.header.header-fixed-1.is-fixed .inner-mobile-nav {
+                top: 85px !important;
+                bottom: 0px !important;
+                .wrap {
+                    padding: 30px 20px;
+                }
+                .mobile-nav-close {
+                    right: 14px;
+                    top: 13px;
+                }
+            }
+        }
+    }
+    .slide-home-2 {
+        .image {
+            height: 100%;
+            img {
+                height: 550px;
+                object-fit: cover;
+            }
+        }
+        .content-wrap {
+            padding-top: 250px !important;
+            padding-right: 30px;
+            .sub-title {
+                margin-bottom: 0px !important;
+            }
+            .title {
+                width: unset;
+            }
+        }
+    }
+    .pagination-page-title-home-2 {
+        right: 2% !important;
+    }
+    .s-our-blog {
+        padding: 60px 0px;
+    }
+    .s-testimonial {
+        .slider-testimonial1 {
+            width: 100%;
+        }
+        &.page-index {
+            flex-wrap: wrap;
+            .hover-img-2 {
+                width: 100%;
+                img {
+                    max-width: unset;
+                    height: 500px;
+                }
+            }
+            .slider-testimonial {
+                width: 100%;
+                .wg-testimonial {
+                    padding: 40px 15px 60px;
+                }
+                .swiper-pagination {
+                    bottom: 5px;
+                    left: 5px;
+                }
+            }
+        }
+    }
+    .s-private {
+        padding: 60px 0px;
+        .private-content {
+            flex-wrap: wrap-reverse;
+            .content-section {
+                width: 100%;
+                padding: 30px 0px 0px;
+            }
+            .image {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+                .wg-counter {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .s-box-why {
+        padding-top: 222px;
+        .s-caption {
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 40px;
+        }
+        .box-why-content {
+            flex-wrap: wrap;
+            .image {
+                width: 100% !important;
+                .hover-img-2 {
+                    width: 100% !important;
+                    img {
+                        max-width: unset;
+                        max-height: 500px;
+                    }
+                }
+                .content-left {
+                    display: none;
+                }
+            }
+            .content-section {
+                width: 100% !important;
+                padding: 30px 0px 30px 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .wg-food-offer {
+        .content {
+            .price {
+                margin-bottom: 10px;
+                width: 63px;
+                height: 55px;
+                p {
+                    bottom: -10px;
+                }
+            }
+            .name {
+                bottom: -75px;
+            }
+        }
+    }
+    .s-about {
+        .image {
+            .img-item-1 {
+                img {
+                    max-height: 500px;
+                }
+            }
+        }
+    }
+    .slide-home-1 {
+        .content {
+            padding: 100px 0px 60px !important;
+            justify-content: space-between !important;
+        }
+        .bot {
+            display: none !important;
+        }
+    }
+    .s-book {
+        padding: 60px 0px;
+        .img-item {
+            display: none;
+        }
+        &.page-menu {
+            padding: 60px 0px;
+        }
+        &.page-home-2 {
+            padding-top: 60px;
+            .heading-section {
+                padding-top: 0px;
+            }
+            .form-book {
+                margin-bottom: 60px;
+            }
+            .image {
+                margin-left: unset;
+                max-width: unset;
+                img {
+                    width: 100%;
+                    max-height: 500px;
+                    object-fit: cover;
+                    object-position: bottom;
+                }
+            }
+        }
+    }
+    .s-menu {
+        padding: 70px 0px 50px;
+        &.page-our-menu {
+            padding: 70px 0px 50px;
+            .wg-menu {
+                margin-bottom: 40px;
+            }
+            .heading {
+                margin-bottom: 0px;
+                .title {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .wg-menu {
+        padding: 0px !important;
+        margin-bottom: 30px;
+    }
+    .animal-link-menu {
+        .list {
+            @include flex(unset, unset);
+            .item {
+            }
+        }
+    }
+    .wg-counter {
+        flex-wrap: wrap;
+        gap: 15px 0px;
+        .number-counter {
+            max-width: unset;
+            width: 50%;
+            p {
+                padding-left: unset;
+            }
+        }
+    }
+    .wg-box-event {
+        &.style-2 {
+            .sub-title {
+                bottom: 60px;
+            }
+            h3 {
+                font-size: 25px;
+                bottom: 20px;
+            }
+            .content {
+                padding: 15px;
+                height: max-content;
+                bottom: unset;
+                .h3 {
+                    margin-bottom: 15px;
+                    line-height: 35px;
+                }
+                .text {
+                    margin-bottom: 35px;
+                }
+            }
+        }
+        .image {
+            max-height: 401px;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .content {
+            padding: 0px 15px 15px;
+            .icon-item {
+                i {
+                    font-size: 40px;
+                }
+                height: 75px;
+                width: 90px;
+                padding-top: 10px;
+                margin-bottom: 45px;
+            }
+        }
+    }
+    .s-event {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        .heading-text {
+            line-height: 40px;
+        }
+        .wg-box-event {
+            .title {
+                font-size: 25px;
+            }
+            .h3 {
+                font-size: 25px;
+            }
+        }
+        &.page-home-2 {
+            .btn-readmore {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .s-text {
+        padding: 50px 0px 100px;
+    }
+    .s-team,
+    .s-enjoy {
+        .content {
+            padding: 40px 20px !important;
+            &.right {
+                padding-bottom: 20px !important;
+            }
+            &.left {
+                padding-top: 20px !important;
+            }
+        }
+    }
+    .grid-layout-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-inner-wrap {
+        margin-bottom: 40px;
+        .footer-title {
+            margin-bottom: 15px !important;
+        }
+        .email,
+        .address {
+            margin-bottom: 10px !important;
+        }
+    }
+    #footer-main {
+        .footer-top {
+            gap: 40px 40px;
+            flex-wrap: wrap;
+            .footer-logo {
+                width: 100%;
+                @include flex(center, center);
+            }
+            .text {
+                width: calc(70% - 40px);
+                padding-left: 0px !important;
+            }
+            .wg-social {
+                width: 30%;
+            }
+        }
+        .footer-inner {
+            padding-bottom: 20px !important;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .slide-home-1 {
+        .image {
+            img {
+                height: 400px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        &.header-fixed-2 {
+            .header-inner {
+                padding: 20px 15px !important;
+                .call-us {
+                    display: none;
+                }
+            }
+            .inner-mobile-nav {
+                // max-width: 400px !important;
+            }
+        }
+    }
+    .s-our-story {
+        padding-bottom: 60px;
+    }
+    .s-offer-food-2 {
+        padding-top: 0px;
+    }
+
+    .s-book {
+        &.page-book-a-table {
+            padding: 60px 0px;
+        }
+    }
+    .s-find-us {
+        &.page-book-a-table {
+            padding-bottom: 60px;
+            .main-section {
+                flex-wrap: wrap;
+                .box-map {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 400px;
+                    .map {
+                        max-width: 100%;
+                        width: 100%;
+                        height: 400px;
+                    }
+                }
+                .content-right {
+                    padding: 30px 0px 0px;
+                }
+            }
+        }
+    }
+    .s-just-drop {
+        .contact-list {
+            grid-template-columns: repeat(1, 1fr);
+            br {
+                display: block;
+            }
+        }
+    }
+    .s-welcome-balisico {
+        padding-bottom: 60px;
+        .main-section {
+            .box-infor {
+                &.type-right {
+                }
+            }
+            .content-inner {
+                padding: 0px 0px;
+            }
+        }
+    }
+    .header-style-2 {
+        .inner-mobile-nav {
+            top: 0 !important;
+        }
+    }
+    .s-find-us {
+        &.page-home-2 {
+            .content-right {
+                .heading-section {
+                    margin-bottom: 0px;
+                }
+                .title-2 {
+                    margin-bottom: 10px;
+                }
+                .call {
+                    margin-bottom: 20px;
+                }
+                .time-open {
+                    margin-bottom: 26px;
+                }
+            }
+        }
+    }
+    .s-gallery {
+        &.page-home-2 {
+            padding-top: 60px;
+            .heading-section {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .s-meet-the-chef {
+        .content-section {
+            padding: 60px 15px;
+            .heading-section {
+                margin-bottom: 0px;
+            }
+            .text {
+                margin-bottom: 20px;
+            }
+            .image-item {
+                max-width: 199px;
+            }
+        }
+    }
+    .s-special-food {
+        .s-left {
+            .content {
+                .title {
+                    width: 100%;
+                }
+            }
+        }
+        .s-right {
+            grid-template-columns: repeat(1, 1fr);
+            .content {
+                padding: 70px 15px !important;
+            }
+            .image {
+                height: 300px;
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .s-recommend {
+        padding-bottom: 60px;
+        br {
+            display: none;
+        }
+        .heading-section {
+            margin-bottom: 10px;
+        }
+    }
+    .header-style-2 {
+        .header-inner {
+            .header-right {
+                .call-us {
+                    display: none;
+                }
+            }
+        }
+    }
+    .form-book {
+        padding: 0px 0px !important;
+    }
+    .private-content {
+        img {
+            max-height: 500px;
+        }
+    }
+    .wg-counter {
+        &.style-2 {
+            gap: 0px;
+            .number-counter {
+                max-width: 224px !important;
+                .counter-content {
+                    span {
+                        line-height: 35px;
+                        font-size: 45px;
+                    }
+                }
+                p {
+                    line-height: 35px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .wg-food-offer {
+        .image {
+        }
+    }
+    .s-our-menu {
+        padding-top: 60px;
+        .heading-section {
+            .icon-wave-item {
+                margin-bottom: 20px;
+            }
+        }
+        .has-btn {
+            justify-content: flex-start;
+        }
+    }
+    .heading-section {
+        .sub-title {
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+    .s-about {
+        padding-bottom: 60px;
+        .content-section {
+            padding-top: 30px;
+        }
+        .text,
+        .text-2 {
+            margin-bottom: 15px;
+        }
+    }
+    .header {
+        .header-center {
+            .img-logo {
+                bottom: -10px !important;
+            }
+            .item-1 {
+                top: -40px !important;
+            }
+        }
+    }
+    .slide-home-1 {
+        .content {
+            padding: 50px !important;
+            .title {
+                width: 100% !important;
+                padding: 0px !important;
+                font-size: 35px;
+                line-height: 37px;
+            }
+            .btn-view {
+                padding: 5px 20px !important;
+            }
+        }
+    }
+    .s-testimonial {
+        padding: 60px 0px !important;
+    }
+    .wg-box-event {
+        margin-bottom: 30px !important;
+        .content {
+            .text {
+                width: 70%;
+            }
+        }
+    }
+    .page-title {
+        .item {
+            &.item-1 {
+                bottom: -115px;
+                left: -5px;
+                img {
+                    max-width: 190px;
+                }
+            }
+            &.item-2 {
+                bottom: -37px;
+                right: -10px;
+                img {
+                    max-width: 190px;
+                }
+            }
+        }
+    }
+    .main-content {
+        padding: 100px 0px 0px !important;
+        &.page-contact {
+            padding-bottom: 60px !important;
+        }
+        &.page-blog,
+        &.page-blog-single,
+        &.main-page-home-2 {
+            padding-bottom: 60px !important;
+        }
+    }
+    .wg-blog {
+        img {
+            width: 100%;
+            height: 400px;
+        }
+    }
+    #footer-main {
+        .footer-top {
+            gap: 40px 40px;
+            .footer-logo {
+                width: 100%;
+                @include flex(unset, unset);
+            }
+            .text {
+                width: unset;
+            }
+            .wg-social {
+                width: unset;
+            }
+        }
+    }
+}
+@media (max-width: 650px) {
+    #footer-main {
+        .footer-bottom {
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    .wg-blockquote {
+        padding: 30px;
+    }
+    .s-recommend {
+        padding-top: 60px;
+        .img-item {
+            display: none;
+        }
+    }
+    .header-topbar {
+        .topbar-right {
+            display: none;
+        }
+    }
+    .header {
+        &.header-style-2 {
+            &.t-147 {
+                top: 78px !important;
+            }
+        }
+    }
+    .slide-home-2 {
+        .content-wrap {
+            padding-top: 200px !important;
+        }
+    }
+}
+@media (max-width: 550px) {
+    .s-about {
+        .text-rotate {
+            top: 20px;
+            left: 20px;
+            .circle {
+                width: 158px;
+                height: 158px;
+            }
+            .text {
+                span {
+                    transform-origin: 0 75px;
+                }
+            }
+        }
+    }
+    .wg-404 {
+        .number {
+            font-size: 200px !important;
+        }
+        .not-found {
+            line-height: 40px !important;
+            font-size: 35px !important;
+        }
+    }
+    #footer-main {
+        .footer-top {
+            justify-content: center;
+            text-align: center;
+            gap: 30px;
+            .footer-logo {
+                justify-content: center;
+            }
+        }
+    }
+    .s-about {
+        .content-section {
+            padding-top: 0px;
+        }
+    }
+    .heading-section {
+        .title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+    .header-style-2 {
+        .header-inner {
+            .header-left {
+                display: block !important;
+            }
+        }
+        .inner-mobile-nav {
+            width: 100%;
+            max-width: 375px;
+        }
+    }
+    .slide-home-2 {
+        .content-wrap {
+            padding-top: 170px !important;
+            .content {
+                .sub-title {
+                    margin-bottom: 0px !important;
+                    font-size: 13px;
+                }
+                .title {
+                    margin-bottom: 25px !important;
+                    font-size: 40px;
+                    line-height: 45px;
+                }
+            }
+        }
+    }
+    .s-book {
+        &.page-index {
+            padding-top: 30px;
+        }
+        .form-book {
+            .field2 {
+                flex-wrap: wrap;
+                > * {
+                    &:not(:last-child) {
+                        width: calc(50% - 11px);
+                    }
+                    &:last-child {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .wg-food-offer {
+        max-width: unset !important;
+        max-height: 500px;
+    }
+    .main-content {
+        padding: 70px 0px 0px !important;
+    }
+    .wg-counter {
+        .number-counter {
+            span {
+                font-size: 50px !important;
+            }
+            p {
+                line-height: 30px;
+                font-size: 15px !important;
+            }
+        }
+    }
+    .page-title {
+        padding: 100px 0px 100px;
+        .title {
+            font-size: 35px;
+            line-height: 40px;
+            margin-bottom: 10px;
+        }
+        .item {
+            &.item-1 {
+                bottom: -170px;
+                left: 0px;
+            }
+            &.item-2 {
+                bottom: -108px;
+                right: -38px;
+            }
+        }
+    }
+    .header-style-1 {
+        .header-inner {
+            margin-left: -20px;
+        }
+        .header-left {
+            display: none !important;
+        }
+    }
+    #footer-main {
+        padding-top: 60px;
+        .footer-top {
+            padding-bottom: 46px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .header.header-fixed-2 .mobile-nav-wrap .inner-mobile-nav > .wrap::after {
+        width: 120px;
+    }
+    .header {
+        &.header-fixed-2 {
+            .inner-mobile-nav {
+                max-width: 325px !important;
+                .wrap {
+                    padding: 50px 20px !important;
+                    .mobile-nav-close {
+                        right: 20px;
+                        top: 20px;
+                    }
+                }
+            }
+            .image-item {
+                left: 133px !important;
+            }
+        }
+    }
+    .wg-404 {
+        .number {
+            font-size: 150px !important;
+        }
+    }
+    .wg-food-offer {
+        &.style-2 {
+            &:hover {
+                .content {
+                    height: 70% !important;
+                }
+            }
+        }
+    }
+    .s-event {
+        .heading-text {
+            font-size: 25px;
+            margin-bottom: 39px;
+            line-height: 35px;
+        }
+    }
+    .s-special-food {
+        .s-right {
+            .content {
+                padding: 45px 15px !important;
+            }
+        }
+    }
+    .s-our-story {
+        padding-bottom: 60px;
+        .content-section {
+            padding: 30px 0px 0px !important;
+            .text-2 {
+                margin-bottom: 20px !important;
+            }
+            .btn-readmore {
+                padding: 5px 25px !important;
+            }
+        }
+        .box-infor {
+            margin-top: 40px !important;
+            padding: 30px !important;
+            .title {
+                margin-bottom: 25px !important;
+            }
+            .item {
+                &:not(:last-child) {
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+    }
+    .s-book {
+        .form-book {
+            .field1 {
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-bottom: 10px;
+                > * {
+                    width: 100% !important;
+                }
+            }
+            .field2 {
+                gap: 10px;
+                margin-bottom: 25px;
+                > * {
+                    &:not(:last-child) {
+                        width: calc(50% - 5px);
+                    }
+                }
+            }
+        }
+    }
+    .wg-counter {
+        gap: 15px 15px;
+        justify-content: space-around;
+        &.style-2 {
+            .number-counter {
+                padding: 15px !important;
+                max-width: 195px !important;
+            }
+        }
+        .number-counter {
+            width: 32%;
+            span {
+                font-size: 40px !important;
+                line-height: 40px !important;
+            }
+            p {
+                line-height: 20px;
+                font-size: 13px !important;
+            }
+        }
+    }
+}
+@media (max-width: 370px) {
+    .wg-food-offer {
+        &.style-2 {
+            &:hover {
+                .content {
+                    height: 90% !important;
+                }
+            }
+        }
+    }
+}

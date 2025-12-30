@@ -1,0 +1,57 @@
+// animate
+.hover-img {
+    .image-wrap {
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            -webkit-transition: all 2s cubic-bezier(0.3, 1, 0.35, 1) 0s;
+            transition: all 2s cubic-bezier(0.3, 1, 0.35, 1) 0s;
+        }
+    }
+
+    &:hover {
+        .image-wrap {
+            img {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                transform: scale3d(1.1, 1.1, 1.1);
+            }
+        }
+    }
+}
+.hover-img-2 {
+    .img-style {
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            -webkit-transition: transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+            transition: transform 1.5s cubic-bezier(0, 0, 0.44, 1.18);
+        }
+        &:hover {
+            img {
+                -webkit-transform: scale(1.06);
+                transform: scale(1.06);
+            }
+        }
+    }
+}
+.scale-image {
+    .image {
+        overflow: hidden;
+        img {
+            transform: scale(1.1);
+            @include transition3;
+        }
+    }
+
+    &:hover {
+        .image {
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

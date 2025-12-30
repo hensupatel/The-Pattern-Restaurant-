@@ -1,0 +1,54 @@
+.offcanvas {
+    z-index: 3000;
+}
+
+.offcanvas-backdrop {
+    cursor: url("../icons/cursor-close.svg"), auto;
+    @include transition5;
+}
+
+.offcanvas-search {
+    height: max-content !important;
+    @include transition2;
+    @include hidden;
+    transform: translateY(-100px) !important;
+    &.show {
+        transform: translateY(0px) !important;
+        @include visible;
+        @include transition2;
+    }
+    > .btn-close-search {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background-color: var(--bg-4);
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        @include flex(center, center);
+        border-radius: 50%;
+        z-index: 1;
+    }
+    .offcanvas-body {
+        padding: 60px 0;
+    }
+    .form-search-courses {
+        input {
+            border: 1px solid var(--Border);
+            border-radius: 4px;
+        }
+        .button-submit button {
+            border-radius: 8px;
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            @include transition3;
+            i {
+                font-size: 22px;
+                color: var(--Bg);
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+#footer-main {
+    background-color: var(--Bg);
+    padding-top: 83px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    .img-item {
+        position: absolute;
+        z-index: 0;
+        &.item-1 {
+            top: -47px;
+            max-width: 275px;
+        }
+        &.item-2 {
+            bottom: -70px;
+            right: 0;
+            max-width: 285px;
+        }
+    }
+    .footer-top {
+        @include flex(center, space-between);
+        gap: 75px;
+        position: relative;
+        z-index: 3;
+        padding-bottom: 47px;
+        border-bottom: 1px solid var(--Border-2);
+        margin-bottom: 75px;
+        .footer-logo {
+            img {
+                max-width: 172px;
+            }
+        }
+        .text {
+            font-size: 17px;
+            color: var(--White);
+            line-height: 30px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            padding-left: 10px;
+        }
+    }
+    .footer-inner {
+        padding-bottom: 76px;
+        position: relative;
+        z-index: 3;
+        .footer-title {
+            color: var(--White);
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+        p {
+            color: var(--Text-1);
+            font-family: $font-main3;
+            &.time {
+                margin-bottom: 5px;
+            }
+            &.phone-number {
+                font-family: "CormorantInfant";
+                font-size: 25px;
+                line-height: 25px;
+                font-weight: 700;
+                color: var(--White);
+                letter-spacing: 0.5px;
+            }
+            &.address,
+            &.email {
+                margin-bottom: 17px;
+            }
+        }
+        .link-list {
+            li {
+                &:not(:last-child) {
+                    margin-bottom: 25px;
+                }
+                a {
+                    color: var(--Text-1);
+                    position: relative;
+                    font-family: $font-main3;
+                    @include transition3;
+                    &:hover {
+                        padding-left: 28px;
+                        color: var(--White);
+
+                        &::before {
+                            @include visible;
+                            width: 15px;
+                        }
+                    }
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        width: 0px;
+                        height: 1px;
+                        background-color: var(--Sub-color);
+                        @include transition3;
+                        @include hidden;
+                    }
+                }
+            }
+        }
+        #from-email {
+            .fieldset-email {
+                margin-bottom: 17px;
+            }
+            .btn-subscribe {
+                letter-spacing: 2px;
+            }
+        }
+    }
+    .footer-bottom {
+        border-top: 1px solid var(--Border-2);
+        @include flex(center, space-between);
+        padding: 24px 0px;
+        gap: 20px;
+        position: relative;
+        z-index: 3;
+        flex-wrap: wrap;
+        .no-copy {
+            color: var(--White);
+            letter-spacing: 0.3px;
+            font-family: $font-main3;
+        }
+        .list {
+            @include flex(center, center);
+            gap: 26px;
+            a {
+                color: var(--White);
+                font-family: $font-main3;
+                letter-spacing: 0.3px;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    bottom: -1px;
+                    left: auto;
+                    right: 0;
+                    width: 0%;
+                    height: 1px;
+                    background-color: var(--White);
+                    @include transition3;
+                }
+                &:hover {
+                    &::after {
+                        width: 100%;
+                        right: auto;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+    &.style-2 {
+        padding-top: 72px;
+        .footer-top {
+            padding-bottom: 58px;
+            margin-bottom: 55px;
+        }
+        .footer-inner {
+            padding-bottom: 70px;
+            p {
+                font-family: "DM Sans";
+                &.phone-number {
+                    font-family: "CormorantInfant";
+                }
+            }
+        }
+    }
+}

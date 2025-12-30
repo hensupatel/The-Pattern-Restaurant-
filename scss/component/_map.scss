@@ -1,0 +1,28 @@
+.wg-location {
+    .box-map {
+        width: 100%;
+        height: 100%;
+        .map {
+            height: 638px;
+            width: 100%;
+            .marker {
+                background-image: url("./../icons/marker.svg");
+                background-size: cover;
+                width: 35px;
+                height: 50px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.mapboxgl-ctrl-attrib {
+    a,
+    &.mapboxgl-compact {
+        display: none !important;
+    }
+}
+
+a.mapboxgl-ctrl-logo {
+    display: none !important;
+}

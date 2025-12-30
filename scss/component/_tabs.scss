@@ -1,0 +1,66 @@
+.wg-tabs {
+    .menu-tab {
+        @include flex(center, center);
+        gap: 77px;
+        font-family: "CormorantInfant";
+        color: var(--White);
+        line-height: 40px;
+
+        cursor: pointer;
+        margin-bottom: 35px;
+        white-space: nowrap;
+        .item {
+            position: relative;
+            @include transition3;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 40px;
+            letter-spacing: 2px;
+            &.active {
+                color: var(--White);
+                &::after {
+                    width: 100%;
+                }
+            }
+            &:hover {
+                color: var(--Primary);
+                &::after {
+                    left: 0;
+                    right: auto;
+                    width: 100%;
+                }
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: auto;
+                right: 0;
+                height: 1px;
+                width: 0;
+
+                background-color: var(--Primary);
+                @include transition3;
+            }
+        }
+    }
+    &.style-2 {
+        .menu-tab {
+            justify-content: flex-start;
+            li {
+                font-size: 21px;
+            }
+        }
+    }
+    .widget-content-tab {
+        .widget-content-inner {
+            visibility: hidden;
+            opacity: 0;
+
+            &.active {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+}
